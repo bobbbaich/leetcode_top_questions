@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'com.bobbbaich'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'org.junit.jupiter:junit-jupiter-params:5.4.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.4.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.4.2'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+//task wrapper(type: Wrapper) {
+//    gradleVersion = '6.2.2'
+//}
