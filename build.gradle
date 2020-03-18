@@ -21,6 +21,6 @@ test {
     useJUnitPlatform()
 }
 
-//task wrapper(type: Wrapper) {
-//    gradleVersion = '6.2.2'
-//}
+task wrapper(type: Wrapper) {
+    gradleVersion = '6.2.2'
+}
